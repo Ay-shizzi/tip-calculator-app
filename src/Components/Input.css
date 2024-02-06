@@ -1,0 +1,78 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+.label {
+  margin-bottom: 10px;
+}
+.input-field {
+  text-align: end;
+  border: none;
+  outline: none;
+  color: var(---Very-dark-cyan);
+  font-family: "Space Mono", monospace;
+  padding: 6px;
+  font-size: 18px;
+  background-color: var(---Very-light-grayish-cyan);
+  border-radius: 5px;
+  width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.icon {
+  position: absolute;
+  padding: 10px;
+}
+.tip-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.btn {
+  width: 80px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(---Very-dark-cyan);
+  color: var(---Very-light-grayish-cyan);
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: var(---Light-grayish-cyan);
+  color: var(---Very-dark-cyan);
+}
+.btn:focus {
+  background-color: var(---Strong-cyan);
+  color: var(---Very-dark-cyan);
+}
+.custom {
+  width: 80px;
+  padding: 5px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline-color: var(---Very-dark-cyan);
+  text-align: end;
+  background-color: var(---Very-light-grayish-cyan);
+  font-family: "Space Mono", monospace;
+  color: var(---Very-dark-cyan);
+}
+.custom::placeholder {
+  color: var(---Dark-grayish-cyan);
+}
+.label-error {
+  display: flex;
+  justify-content: space-between;
+}
+.error-message {
+  color: red;
+  display: none;
+}

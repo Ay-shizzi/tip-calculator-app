@@ -1,0 +1,39 @@
+.result {
+  background-color: var(---Very-dark-cyan);
+  padding: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.result-output {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.result-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title h3 {
+  font-size: 12px;
+  color: var(---White);
+}
+.bill h1 {
+  color: var(---Strong-cyan);
+}
+.result-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-family: "Space Mono", monospace;
+  background-color: var(---Strong-cyan);
+  color: var(---Very-dark-cyan);
+  cursor: pointer;
+}
+.result-btn:hover {
+  background-color: var(---Light-grayish-cyan);
+}
